@@ -1,0 +1,78 @@
+*{
+	box-sizing: border-box;
+	text-decoration:none;
+	
+}
+*:focus{
+	
+	outline:none;
+}
+body{
+	font-family: Arial;
+	background:#3498D8;
+	padding : 50px;
+	
+}
+.login{
+	margin:20px auto;
+	width: 300px;
+}
+.login-screen{
+	background-color:#fff;
+	padding: 20px;
+	border-radius:10px;
+}
+.app-title{
+	
+	text-align:center;
+	color:#777;
+}
+.login-form{
+	
+	text-align: center;
+	
+}
+
+.control-group{
+ margin-bottom:10px;
+}
+input{
+	text-align: center;
+	background-color: #ECF0F1;
+	border:2px solid transparent;
+	border-radius:3px;
+	font-size:16px;
+	font-weight:200;
+	padding:10px 0;
+	width:250px;
+	transition: border .5s;
+	
+	
+}
+input:focus{
+	border:2px solid #3498D8;
+	box-shadow:none;
+}
+.btn{
+ 	
+	
+	border:2px solid transparent;
+	background:#3498D8;
+	color:#ffffff;
+	font-size:16px;
+	line-height:25px;
+	padding:10px 0;
+	text-decoration:none;
+	text-shadow:none;
+	border-radius:3px;
+	transition:0.25s;
+	display : block;
+	width : 250px;
+	margin:0 auto;
+	margin-top:5px;
+	text-align: center;
+	
+	}
+.btn:hover{
+	background-color:#298089;
+}

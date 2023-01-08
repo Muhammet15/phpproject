@@ -1,0 +1,63 @@
+
+table {
+  border-collapse: collapse;
+    
+  border-style:double;!important
+
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #505050}
+
+th {
+  background-color: #4CAF50;!important
+  color: white;!important
+}
+
+footer{
+ font-family: times, Times New Roman, times-roman, georgia, serif;
+ color: #444;
+ margin: 0;
+ padding: 0px 0px 6px 0px;
+ font-size: 44px;
+ line-height: 44px;
+ letter-spacing: -2px;
+ font-weight: bold;
+}
+
+.smalltext{
+    
+    font-family: Gill Sans, Verdana;
+ font-size: 8px;
+ line-height: 14px;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ font-weight: bold;
+      margin-left: 45%;
+}
+.yildizfont{
+    color:red; 
+    font-size:2em;
+}
+.kayanyazi{
+font-size:0.9em;    
+font-family: "Times New Roman";
+font-weight: bold;
+font-variant: small-caps;
+font-style: oblique;
+}
+
+.baslik{
+    color: #111; 
+    font-family: 'Comic Sans MS', sans-serif; 
+    font-size: 70px; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 1;
+    text-align: center;
+    
+}
